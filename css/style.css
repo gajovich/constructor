@@ -754,6 +754,7 @@ h6 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  display: none;
 }
 
 .content-science__item svg path {

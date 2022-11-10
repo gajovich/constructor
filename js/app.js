@@ -6455,6 +6455,7 @@
                 modules: [ Pagination ],
                 observer: true,
                 observeParents: true,
+                spaceBetween: 16,
                 speed: 800,
                 pagination: {
                     el: ".ecosystem__slider .swiper-pagination",
@@ -6462,7 +6463,8 @@
                 },
                 breakpoints: {
                     0: {
-                        slidesPerView: 1.1
+                        slidesPerView: 1.1,
+                        spaceBetween: 16
                     },
                     768: {
                         slidesPerView: 2.2,
@@ -6496,7 +6498,8 @@
                 },
                 breakpoints: {
                     0: {
-                        slidesPerView: 1.1
+                        slidesPerView: 1.1,
+                        spaceBetween: 16
                     },
                     767.98: {
                         slidesPerView: 2.1,
@@ -6513,6 +6516,7 @@
                 modules: [ Navigation ],
                 observer: true,
                 observeParents: true,
+                spaceBetween: 16,
                 speed: 800,
                 navigation: {
                     prevEl: ".news__slider .swiper-button-prev",
@@ -6520,7 +6524,8 @@
                 },
                 breakpoints: {
                     0: {
-                        slidesPerView: 1.1
+                        slidesPerView: 1.1,
+                        spaceBetween: 16
                     },
                     767.98: {
                         slidesPerView: 2.1,

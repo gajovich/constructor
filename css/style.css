@@ -587,7 +587,7 @@ h6 {
 .main-fullscreen__btn {
   position: absolute;
   left: 50%;
-  bottom: 6.25rem;
+  bottom: 7.5rem;
   z-index: 3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -656,6 +656,18 @@ h6 {
   -webkit-transition: fill 0.3s ease 0s;
   -o-transition: fill 0.3s ease 0s;
   transition: fill 0.3s ease 0s;
+}
+
+.science {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .science__img {
@@ -739,6 +751,9 @@ h6 {
       -ms-flex: 0 0 0.75rem;
           flex: 0 0 0.75rem;
   margin-right: 0.625rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .content-science__item svg path {
@@ -1939,14 +1954,6 @@ h6 {
     margin-top: 0.9375rem;
   }
 
-  .science {
-    padding-top: 7rem;
-  }
-
-  .science {
-    padding-bottom: 7rem;
-  }
-
   .science__title {
     margin-bottom: 2.5rem;
   }
@@ -2804,14 +2811,6 @@ h6 {
 
   .main-fullscreen__arrow {
     margin-top: 0.5rem;
-  }
-
-  .science {
-    padding-top: 3.25rem;
-  }
-
-  .science {
-    padding-bottom: 3.25rem;
   }
 
   .science__title {
@@ -4713,30 +4712,6 @@ h6 {
 @supports not (margin-top: clamp( 0.5rem , 0.4125rem  +  0.4375vw , 0.9375rem )) {
     .main-fullscreen__arrow {
       margin-top: calc(0.5rem + 0.4375 * (100vw - 20rem) / 100);
-    }
-}
-
-@supports (padding-top: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem )) {
-    .science {
-      padding-top: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem );
-    }
-}
-
-@supports not (padding-top: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem )) {
-    .science {
-      padding-top: calc(3.25rem + 3.75 * (100vw - 20rem) / 100);
-    }
-}
-
-@supports (padding-bottom: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem )) {
-    .science {
-      padding-bottom: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem );
-    }
-}
-
-@supports not (padding-bottom: clamp( 3.25rem , 2.5rem  +  3.75vw , 7rem )) {
-    .science {
-      padding-bottom: calc(3.25rem + 3.75 * (100vw - 20rem) / 100);
     }
 }
 

@@ -882,6 +882,10 @@ h6 {
   }
 }
 
+.hs-richtext {
+  display: none;
+}
+
 .header {
   position: absolute;
   z-index: 50;
